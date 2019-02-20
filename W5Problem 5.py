@@ -1,0 +1,37 @@
+#Ben Page
+#2/20/2019
+#Creates a small art piece using turtles.
+
+import turtle
+wn = turtle.Screen()
+drawboy = turtle.Turtle()
+drawboy.shape("turtle")
+drawboy.color("black")
+drawboy.fillcolor("yellow")
+drawboy.begin_fill()
+for i in range(20):
+    drawboy.forward(20)
+    drawboy.left(18)
+drawboy.end_fill()
+msdrawboy = turtle.Turtle()
+msdrawboy.shape("turtle")
+msdrawboy.pensize(10)
+msdrawboy.right(90)
+msdrawboy.forward(200)
+msdrawboy.left(45)
+msdrawboy.forward(100)
+msdrawboy.penup()
+msdrawboy.right(180)
+msdrawboy.forward(100)
+msdrawboy.left(90)
+msdrawboy.pendown()
+msdrawboy.forward(100)
+drawboy.pensize(10)
+drawboy.color("black")
+drawboy.right(90)
+drawboy.forward(50)
+drawboy.left(90)
+drawboy.forward(80)
+drawboy.left(180)
+drawboy.forward(160)
+wn.exitonclick()
